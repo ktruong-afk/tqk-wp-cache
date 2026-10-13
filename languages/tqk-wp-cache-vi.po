@@ -1,0 +1,980 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: vi\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "%s #%d"
+msgstr "%s #%d"
+
+msgid "%s pages queued for rebuild."
+msgstr "Đã xếp %s trang vào hàng đợi dựng lại."
+
+msgid "1-Click System Junk Cleanup"
+msgstr "Dọn dẹp rác hệ thống (1-Click)"
+
+msgid "A cached page keeps the numbers it had when it was built. Wrap a number that must stay current and it is refreshed in the visitor's browser from a tiny cached endpoint:"
+msgstr "Trang đã cache giữ nguyên các con số lúc nó được dựng. Hãy bọc con số cần luôn mới, nó sẽ được cập nhật ngay trong trình duyệt của khách từ một endpoint nhỏ có cache:"
+
+msgid "A message was just sent. Please wait a minute before sending another one."
+msgstr "Vừa có một tin nhắn được gửi. Hãy chờ một phút rồi gửi tiếp."
+
+msgid "API token (permission \"Zone > Cache Purge\" only):"
+msgstr "API token (chỉ quyền \"Zone > Cache Purge\"):"
+
+msgid "Accelerated batch processor bypasses heavy count hooks during deletion for instant speed."
+msgstr "Cơ chế xử lý phân đoạn tăng tốc bỏ qua các hook đếm term nặng nề của WooCommerce, cho tốc độ xóa tức thì."
+
+msgid "Account Name"
+msgstr "Chủ tài khoản"
+
+msgid "Account Number"
+msgstr "Số tài khoản"
+
+msgid "Active"
+msgstr "✓ Đang áp dụng"
+
+msgid "Admin pages often wait for web requests one after another (update checks of other plugins, tracking pixels, the WP-Cron loop-back). On a slow admin this is usually more time than the whole database. Core, plugin and theme update checks are never touched."
+msgstr "Trang admin thường phải chờ các request web lần lượt từng cái (kiểm tra cập nhật của plugin khác, pixel theo dõi, request vòng của WP-Cron). Ở admin chậm, thời gian này thường lớn hơn cả cơ sở dữ liệu. Việc kiểm tra cập nhật của WordPress, plugin và theme không bao giờ bị đụng tới."
+
+msgid "Advanced & System"
+msgstr "Nâng cao & Hệ thống"
+
+msgid "All cache cleared successfully!"
+msgstr "Đã xóa sạch toàn bộ cache thành công!"
+
+msgid "Also block these hosts (one per line, e.g. tracking.example.com):"
+msgstr "Chặn thêm các host này (mỗi dòng một host, ví dụ tracking.example.com):"
+
+msgid "Also remember these (host or host/path, one per line):"
+msgstr "Nhớ thêm các địa chỉ này (host hoặc host/đường dẫn, mỗi dòng một mục):"
+
+msgid "Among the first three images the first one that is not a small logo is fetched with high priority and never lazy-loaded. Works together with Lazy Load."
+msgstr "Trong ba ảnh đầu, ảnh đầu tiên không phải logo nhỏ được tải với ưu tiên cao và không bao giờ lazy-load. Hoạt động cùng Lazy Load."
+
+msgid "Another plugin already owns wp-content/advanced-cache.php, so TQK static caching is inactive. Disable the other page-cache plugin, then save the TQK settings again."
+msgstr "Một plugin khác đang chiếm wp-content/advanced-cache.php nên bộ nhớ đệm tĩnh của TQK chưa hoạt động. Hãy tắt plugin cache kia rồi bấm Lưu lại cài đặt TQK."
+
+msgid "Apply Now"
+msgstr "Áp dụng ngay"
+
+msgid "Apply to Checked"
+msgstr "Áp dụng cho mục đã chọn"
+
+msgid "Attach the support report (versions, theme, settings, last log lines; passwords, tokens, keys and e-mail addresses are removed)"
+msgstr "Đính kèm báo cáo hỗ trợ (phiên bản, theme, cài đặt, vài dòng log cuối; mật khẩu, token, khoá và địa chỉ e-mail đã được loại bỏ)"
+
+msgid "Author"
+msgstr "Tác giả"
+
+msgid "Author Information & Technical Support"
+msgstr "Thông tin tác giả & Hỗ trợ kỹ thuật"
+
+msgid "Author:"
+msgstr "Tác giả:"
+
+msgid "Auto-Drafts"
+msgstr "Bản nháp tự động (Auto-Drafts)"
+
+msgid "Automatic Gzip Compression (.html.gz)"
+msgstr "Tự động nén Gzip (.html.gz)"
+
+msgid "Automatically adds native browser loading=\"lazy\" to all images."
+msgstr "Tự động bổ sung loading=\"lazy\" chuẩn trình duyệt cho mọi ảnh để không tải ảnh ngoài khung nhìn."
+
+msgid "Automatically combines CSS files in the <head> tag into a single file per page context / post type. Rewrites relative url() for images and fonts to prevent layout breakages."
+msgstr "Tự động gom các file CSS trong thẻ <head> thành 1 file duy nhất cho từng loại trang/post type. Tự động viết lại relative url() cho hình ảnh và font để không vỡ giao diện."
+
+msgid "Automatically compressed and injected into the <head> of cached static pages. Supports CSS variables, custom fonts, or theme overrides."
+msgstr "Tự động nén và nhúng trực tiếp vào thẻ <head> của các trang lưu cache tĩnh. Có thể sử dụng biến CSS, custom font hoặc quy tắc CSS giao diện riêng."
+
+msgid "Automatically injected before the </body> tag in cached static pages. Suitable for analytics, tag managers, or custom optimization scripts."
+msgstr "Tự động nhúng trước thẻ </body> trong cache tĩnh. Thích hợp cho các đoạn mã tracking, phân tích hoặc script tối ưu riêng."
+
+msgid "Automatically purge related cache when publishing or editing posts/comments"
+msgstr "Tự động xóa cache thông minh khi Đăng / Sửa bài viết hoặc Bình luận"
+
+msgid "Automatically purges stale cache, scans OpenBuilder options (Global CSS + Responsive), and generates fresh static HTML ready for visitors."
+msgstr "Tự động xóa cache, quét tùy chọn OpenBuilder (Global CSS + Responsive) và tạo mới HTML tĩnh sẵn sàng cho khách truy cập."
+
+msgid "Automatically refresh Homepage Cache on post updates"
+msgstr "Tự động làm mới Cache Trang chủ khi cập nhật bài viết"
+
+msgid "Balanced Mode (Recommended)"
+msgstr "Chế độ Cân bằng (Khuyên dùng)"
+
+msgid "Bank"
+msgstr "Ngân hàng"
+
+msgid "Block tracking pixels in WP-Admin (pixel.wp.com, stats.wp.com)"
+msgstr "Chặn pixel theo dõi trong WP-Admin (pixel.wp.com, stats.wp.com)"
+
+msgid "Branch"
+msgstr "Chi nhánh"
+
+msgid "Breakthrough 100 Mobile Score"
+msgstr "Bứt phá 100 Điểm Mobile"
+
+msgid "Built in: envato.github.io (theme update list), api.wordpress.org translations and events. Only plain GET requests without credentials are kept."
+msgstr "Có sẵn: envato.github.io (danh sách cập nhật theme), bản dịch và sự kiện của api.wordpress.org. Chỉ lưu request GET thường, không có thông tin xác thực."
+
+msgid "CDN address:"
+msgstr "Địa chỉ CDN:"
+
+msgid "CSS/JS Combination Exclusions (One per line):"
+msgstr "Danh sách tệp CSS/JS loại trừ không gộp (Mỗi tệp 1 dòng):"
+
+msgid "Cache & Core Web Vitals Optimization"
+msgstr "Tối ưu Bộ nhớ đệm & Core Web Vitals"
+
+msgid "Cache Directory:"
+msgstr "Thư mục Cache:"
+
+msgid "Cache Lifespan (Hours):"
+msgstr "Thời gian sống của bộ nhớ đệm (Giờ):"
+
+msgid "Cache Size"
+msgstr "Dung lượng"
+
+msgid "Cache cleared for this page!"
+msgstr "Đã xóa cache cho trang này!"
+
+msgid "Cache cleared. Pages are rebuilt when visitors open them, so the server does no extra work now."
+msgstr "Đã xoá cache. Các trang sẽ được dựng lại khi có khách mở, nên máy chủ không phải làm thêm việc gì lúc này."
+
+msgid "Cache generated successfully: %s (HTTP %d, completed in %sms)"
+msgstr "Tạo mới cache thành công: %s (HTTP %d, hoàn tất trong %sms)"
+
+msgid "Cached Files"
+msgstr "Số files cache"
+
+msgid "Cached Pages Count"
+msgstr "Số trang đã Cache"
+
+msgid "Cached pages are served straight from disk before WordPress loads, and heavy scripts wait for the first visitor interaction."
+msgstr "Trang đã cache được trả thẳng từ đĩa trước khi WordPress khởi động, còn các script nặng chỉ chạy sau tương tác đầu tiên của khách."
+
+msgid "Cached pages for logged-in members on the paths you choose."
+msgstr "Trang cache cho thành viên đã đăng nhập ở những đường dẫn bạn chọn."
+
+msgid "Clean All Junk Now"
+msgstr "Dọn sạch toàn bộ rác ngay"
+
+msgid "Cleaned revisions for %d posts, removed %d revision rows safely."
+msgstr "Đã dọn dẹp bản sửa đổi cho %d bài viết, loại bỏ an toàn %d bản ghi revisions."
+
+msgid "Clear Cache"
+msgstr "Xóa sạch Cache"
+
+msgid "Clear Log"
+msgstr "Xóa nhật ký"
+
+msgid "Clear only, visitors rebuild it (big sites)"
+msgstr "Chỉ xoá, để khách dựng lại (site lớn)"
+
+msgid "Clearing cache…"
+msgstr "Đang xóa cache…"
+
+msgid "Click \"Scan Revisions\" to inspect posts with high revision overhead."
+msgstr "Nhấn \"Quét Revisions\" để kiểm tra các bài viết có số lượng bản sửa đổi lớn làm phình CSDL."
+
+msgid "Click to upgrade to PRO"
+msgstr "Nhấn để nâng cấp lên bản PRO"
+
+msgid "Close"
+msgstr "Đóng"
+
+msgid "Close modal"
+msgstr "Đóng cửa sổ"
+
+msgid "Cloudflare"
+msgstr "Cloudflare"
+
+msgid "Collecting the report…"
+msgstr "Đang thu thập báo cáo…"
+
+msgid "Combine CSS & JS"
+msgstr "Gộp CSS & JS"
+
+msgid "Combine CSS & JS (Post-Type Bundling)"
+msgstr "Gộp tệp CSS & JS (Theo ngữ cảnh Post Type)"
+
+msgid "Combine Header CSS per Post Type"
+msgstr "Gộp CSS trong Header theo từng Post Type (Combine Header CSS)"
+
+msgid "Combine JavaScript Header & Footer Separately"
+msgstr "Gộp JavaScript Header & Footer riêng biệt (Combine JS per Post Type)"
+
+msgid "Combines JS files in the Header and Footer separately into distinct bundles per post type to preserve execution order."
+msgstr "Tách riêng các file JS trên Header gộp thành 1 file, và các file JS ở Footer gộp thành 1 file tương ứng cho từng Post Type để tránh xung đột thứ tự thực thi."
+
+msgid "Communicates directly with LiteSpeed Web Server / OpenLiteSpeed if running on supported hosting."
+msgstr "Giao tiếp trực tiếp với LiteSpeed Web Server / OpenLiteSpeed nếu máy chủ đang sử dụng."
+
+msgid "Complex builders or standalone editors that require traditional full browser reloading (Gutenberg, customizers, update tools)."
+msgstr "Các trình soạn thảo hoặc công cụ đặc thù yêu cầu nạp toàn trang truyền thống (Gutenberg, Theme Customizer, Công cụ Cập nhật)."
+
+msgid "Connected to %s (status: %s)."
+msgstr "Đã kết nối tới %s (trạng thái: %s)."
+
+msgid "Connected to OpenBuilder"
+msgstr "Đã kết nối với OpenBuilder"
+
+msgid "Connection error during cache warmup: %s"
+msgstr "Lỗi kết nối khi tạo cache: %s"
+
+msgid "Contact"
+msgstr "Liên hệ"
+
+msgid "Copy"
+msgstr "Copy"
+
+msgid "Core Web Vitals helpers & CDN"
+msgstr "Hỗ trợ Core Web Vitals & CDN"
+
+msgid "Create it in Cloudflare: My Profile > API Tokens > Create Token > \"Cache Purge\" template. The token is kept on the server and is never shown again."
+msgstr "Tạo trong Cloudflare: My Profile > API Tokens > Create Token > mẫu \"Cache Purge\". Token được giữ trên máy chủ và không bao giờ hiển thị lại."
+
+msgid "Custom CSS & JavaScript (OpenBuilder Integration & Universal Fallback)"
+msgstr "Mã CSS & JavaScript tùy chỉnh (Tích hợp OpenBuilder & Universal Fallback)"
+
+msgid "Database & Cleanup"
+msgstr "CSDL & Dọn dẹp rác"
+
+msgid "Database & Revisions"
+msgstr "CSDL & Revisions"
+
+msgid "Database & Revisions Analyzer"
+msgstr "Phân tích CSDL & Bản sửa đổi (Revisions)"
+
+msgid "Default built-in exclusions: /cart, /checkout, /my-account, /wp-admin, /wp-login.php."
+msgstr "Mặc định plugin đã tự động bypass: /cart, /checkout, /my-account, /wp-admin, /wp-login.php."
+
+msgid "Delay JS & Core Web Vitals Optimization"
+msgstr "Trì hoãn JS & Tối ưu Core Web Vitals"
+
+msgid "Delay JS & Optimization"
+msgstr "Trì hoãn JS & Tối ưu tốc độ"
+
+msgid "Delay JS Auto-Execution Timeout (Seconds):"
+msgstr "Thời gian chờ tự động kích hoạt (giây):"
+
+msgid "Delay JS Exclusions (Files excluded from delay, one per line):"
+msgstr "Danh sách tệp JS loại trừ (Không trì hoãn, mỗi tệp 1 dòng):"
+
+msgid "Delay JavaScript Execution (Delay JS)"
+msgstr "Trì hoãn thực thi JavaScript (Delay JS Execution)"
+
+msgid "Delays execution of non-critical JS scripts until first user interaction (touch or scroll). Critical weapon to achieve 95–100 Google Mobile score!"
+msgstr "Chỉ nạp và chạy các mã JavaScript (Google Analytics, Facebook Pixel, Chat...) khi người dùng bắt đầu chạm màn hình hoặc cuộn chuột. Tuyệt chiêu đạt 95–100 điểm Google Mobile!"
+
+msgid "Delete Selected Permanently"
+msgstr "Xóa vĩnh viễn các mục đã chọn"
+
+msgid "Delete all revisions (0 kept)"
+msgstr "Xóa toàn bộ revisions (Không giữ lại)"
+
+msgid "Deleted At"
+msgstr "Thời gian xóa"
+
+msgid "Deleted batch of %d items (%d remaining)."
+msgstr "Đã xóa phân đoạn %d mục (còn lại %d mục)."
+
+msgid "Direct Author Contact & Support"
+msgstr "Liên hệ trực tiếp Tác giả & Hỗ trợ"
+
+msgid "Disabled"
+msgstr "Chưa bật"
+
+msgid "Displays a live stopwatch at the bottom right corner when navigating WP-Admin. Automatically compares load times between Normal reload and Turbo SPA."
+msgstr "Hiển thị đồng hồ bấm giờ trực tiếp ở góc phải khi lướt WP-Admin. Tự động đo và so sánh thời gian tải thực tế giữa chế độ Tải thường và Turbo SPA."
+
+msgid "Do not start WP-Cron from admin page views"
+msgstr "Không khởi động WP-Cron từ các lượt xem trang admin"
+
+msgid "Done."
+msgstr "Xong."
+
+msgid "Download support report"
+msgstr "Tải báo cáo hỗ trợ"
+
+msgid "Drop-in Engine"
+msgstr "Drop-in Engine"
+
+msgid "Eliminates Total Blocking Time (TBT), maximizes Google PageSpeed scores."
+msgstr "Triệt tiêu Total Blocking Time (TBT), nâng điểm Google PageSpeed lên tối đa."
+
+msgid "Email:"
+msgstr "Email:"
+
+msgid "Emit LiteSpeed Cache HTTP Headers (X-LiteSpeed-Cache-Control & Tag Purge)"
+msgstr "Phát HTTP Headers chuẩn LiteSpeed (X-LiteSpeed-Cache-Control & Tag Purge)"
+
+msgid "Empty All Trash for This Type"
+msgstr "Dọn sạch toàn bộ thùng rác loại này"
+
+msgid "Enable Delay JS + Instant Preload + Tag Purge + Gzip + Minify HTML."
+msgstr "Kích hoạt Delay JS + Instant Preload + Tag Purge + Gzip + Minify HTML."
+
+msgid "Enable Lazy Load for All Images"
+msgstr "Bật Lazy Load cho toàn bộ hình ảnh"
+
+msgid "Enable Lazy Load for iFrames & Videos (YouTube, Vimeo, Google Maps)"
+msgstr "Bật Lazy Load cho iFrames & Video (YouTube, Vimeo, Google Maps)"
+
+msgid "Enable Page Cache (Drop-in Engine)"
+msgstr "Kích hoạt Bộ nhớ đệm trang (Page Cache Drop-in)"
+
+msgid "Enable WP-Admin Instant Turbo SPA Navigation"
+msgstr "Kích hoạt điều hướng siêu tốc SPA cho WP-Admin (Zero Reload)"
+
+msgid "Est. Size"
+msgstr "Dung lượng ước tính"
+
+msgid "Every page that is not cached yet (up to the limit)"
+msgstr "Mọi trang chưa có cache (tối đa theo giới hạn)"
+
+msgid "Expired Transients"
+msgstr "Transients hết hạn"
+
+msgid "Faster Pages With a Static HTML Cache & Smart JavaScript Delay"
+msgstr "Trang nhanh hơn nhờ cache HTML tĩnh & trì hoãn JavaScript thông minh"
+
+msgid "Folder:"
+msgstr "Thư mục:"
+
+msgid "Frequent post edits accumulate dozens of revisions, slowing down WP queries. Selectively keep the recent versions for maximum safety."
+msgstr "Chỉnh sửa bài viết nhiều lần tích tụ hàng chục bản revisions làm chậm truy vấn SQL. Hãy chọn giữ lại các bản gần nhất để an toàn tuyệt đối."
+
+msgid "General Settings"
+msgstr "Cấu hình chung"
+
+msgid "Generates advanced-cache.php in wp-content/ to serve static HTML directly without heavy PHP/MySQL processing."
+msgstr "Tạo tệp advanced-cache.php trong wp-content/ để trả trực tiếp file HTML tĩnh mà không qua xử lý PHP/MySQL nặng nề."
+
+msgid "Global Custom CSS:"
+msgstr "Mã CSS tùy chỉnh chung (Global Custom CSS):"
+
+msgid "Global Custom JS:"
+msgstr "Mã JavaScript tùy chỉnh chung (Global Custom JS):"
+
+msgid "Google Fonts: show text at once (display=swap) and preconnect to the font files"
+msgstr "Google Fonts: hiện chữ ngay (display=swap) và kết nối trước tới máy chủ file font"
+
+msgid "Guaranteed 100% safe, no impact on any layout or functionality."
+msgstr "Cam kết không ảnh hưởng đến bất kỳ giao diện hay tính năng nào của website."
+
+msgid "Gzip Support:"
+msgstr "Hỗ trợ Gzip:"
+
+msgid "Homepage"
+msgstr "Trang chủ"
+
+msgid "Hotline / Zalo:"
+msgstr "Hotline / Zalo:"
+
+msgid "How to get PRO"
+msgstr "Cách có được bản PRO"
+
+msgid "How to rebuild the cache:"
+msgstr "Cách dựng lại cache:"
+
+msgid "Hybrid Server-Level & Front-End Booster Architecture"
+msgstr "Kiến trúc Hybrid Server-Level & Front-End Booster"
+
+msgid "ID"
+msgstr "ID"
+
+msgid "Image and WebP optimiser with bulk compression and a before / after viewer."
+msgstr "Tối ưu ảnh và WebP: nén hàng loạt, có trình xem so sánh trước / sau."
+
+msgid "Incident log"
+msgstr "Nhật ký sự cố"
+
+msgid "Instant Preload (Preload on link hover / touchstart)"
+msgstr "Instant Preload (Tải trước khi rê chuột / Hover)"
+
+msgid "Instant browsing experience (< 50ms) and silky smooth responsiveness."
+msgstr "Trải nghiệm lướt web tức thì (< 50ms) và tối ưu độ phản hồi mượt mà."
+
+msgid "Instantly clear expired transients, abandoned auto-drafts, and orphan post metadata without touching published content."
+msgstr "Dọn sạch tức thì transients hết hạn, bản nháp tự động và postmeta rác mồ côi mà không ảnh hưởng nội dung đã xuất bản."
+
+msgid "Invalid URL address."
+msgstr "Đường dẫn URL không hợp lệ."
+
+msgid "Invalid post type."
+msgstr "Loại bài viết (post type) không hợp lệ."
+
+msgid "Item #%d (Untitled)"
+msgstr "Mục #%d (Không có tiêu đề)"
+
+msgid "Keep Newest"
+msgstr "Số bản giữ lại"
+
+msgid "Keep for"
+msgstr "Giữ trong"
+
+msgid "Keep last 10 revisions"
+msgstr "Giữ lại 10 bản gần nhất"
+
+msgid "Keep last 3 revisions (Default)"
+msgstr "Giữ lại 3 bản gần nhất (Mặc định)"
+
+msgid "Keep last 5 revisions"
+msgstr "Giữ lại 5 bản gần nhất"
+
+msgid "Keep these on the site (a part of the address, one per line):"
+msgstr "Giữ các địa chỉ này trên site (một phần địa chỉ, mỗi dòng một mục):"
+
+msgid "Key pages only (homepage, pages, one sample per type)"
+msgstr "Chỉ các trang trọng tâm (trang chủ, các trang, một mẫu mỗi loại)"
+
+msgid "Last Modified"
+msgstr "Sửa đổi gần nhất"
+
+msgid "Last incident:"
+msgstr "Sự cố gần nhất:"
+
+msgid "Last purge sent to Cloudflare: %1$s - %2$s"
+msgstr "Lần purge gần nhất gửi tới Cloudflare: %1$s - %2$s"
+
+msgid "Likes, votes and other post meta changes refresh the pages that show the post, at most once every:"
+msgstr "Lượt thích, bình chọn và các thay đổi meta khác của bài sẽ làm mới các trang đang hiển thị bài đó, tối đa một lần mỗi:"
+
+msgid "Limit:"
+msgstr "Giới hạn:"
+
+msgid "Link to the newest incident:"
+msgstr "Link tới sự cố mới nhất:"
+
+msgid "Live Cache Warmup & OpenBuilder Sync (Activity Tracker)"
+msgstr "Tái tạo Cache & Đồng bộ OpenBuilder (Live Warmup & Tracker)"
+
+msgid "Live numbers on cached pages"
+msgstr "Số liệu trực tiếp trên trang đã cache"
+
+msgid "Load the main image first (fetchpriority=high on the likely LCP image)"
+msgstr "Tải ảnh chính trước (fetchpriority=high cho ảnh có khả năng là LCP)"
+
+msgid "Loading trash overview…"
+msgstr "Đang tải tổng quan thùng rác…"
+
+msgid "Logged-In Visitors"
+msgstr "Khách đã đăng nhập"
+
+msgid "Login, comment, password-protected post and WooCommerce cart cookies are always excluded. Add your own, e.g. a membership or currency-switcher cookie."
+msgstr "Cookie đăng nhập, bình luận, bài viết có mật khẩu và giỏ hàng WooCommerce luôn được loại trừ. Thêm cookie riêng của bạn, ví dụ cookie thành viên hoặc đổi tiền tệ."
+
+msgid "Media & LazyLoad"
+msgstr "Media & LazyLoad"
+
+msgid "Media & LazyLoad Optimization"
+msgstr "Tối ưu hóa Media & Tải chậm (LazyLoad)"
+
+msgid "Meta keys [tqk_live source=\"meta\"] may show (one per line):"
+msgstr "Các khóa meta mà [tqk_live source=\"meta\"] được phép hiển thị (mỗi dòng một khóa):"
+
+msgid "Meta keys that never refresh a page (one per line):"
+msgstr "Các khóa meta không bao giờ làm mới trang (mỗi dòng một khóa):"
+
+msgid "Minify HTML Code"
+msgstr "Nén mã HTML (Minify HTML)"
+
+msgid "Navigates across WP-Admin without full page reload. Retains admin menu and top bar, diffs and ingests only newly required CSS and JS dynamically."
+msgstr "Chuyển trang tức thì trong WP-Admin không cần reload toàn bộ trang. Giữ nguyên sidebar và admin bar, chỉ quét và nạp bổ sung đúng CSS/JS cần thiết cho từng trang."
+
+msgid "Never Cache URL Exclusions (One per line):"
+msgstr "Danh sách đường dẫn KHÔNG bao giờ lưu Cache (Mỗi URL 1 dòng):"
+
+msgid "Never Cache When A Cookie Starts With (One per line):"
+msgstr "Không cache khi có cookie bắt đầu bằng (mỗi dòng một giá trị):"
+
+msgid "Next-Gen Media & DB (Pro)"
+msgstr "Media & CSDL Thế Hệ Mới (Pro)"
+
+msgid "No"
+msgstr "Không"
+
+msgid "No Cloudflare API token saved."
+msgstr "Chưa lưu API token của Cloudflare."
+
+msgid "No items selected."
+msgstr "Chưa chọn mục nào."
+
+msgid "No posts selected for revision cleanup."
+msgstr "Chưa chọn bài viết nào để dọn revisions."
+
+msgid "Nothing is sent until you press the button. The message goes to %s."
+msgstr "Không có gì được gửi cho đến khi bạn bấm nút. Tin nhắn được gửi tới %s."
+
+msgid "Nothing to rebuild: every public page (up to the limit) already has a fresh cache."
+msgstr "Không cần dựng lại: mọi trang công khai (trong giới hạn) đều đã có cache mới."
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Off"
+msgstr "Tắt"
+
+msgid "One-Click Configuration Presets"
+msgstr "Bộ cấu hình một chạm (One-Click Presets)"
+
+msgid "Only keys listed here are readable, so private meta is never exposed."
+msgstr "Chỉ các khóa liệt kê ở đây mới đọc được, nên meta riêng tư không bao giờ bị lộ."
+
+msgid "OpenBuilder detected: Synced Global CSS and Responsive options into cache"
+msgstr "Phát hiện OpenBuilder: Đồng bộ Global CSS và Responsive options vào cache"
+
+msgid "OpenBuilder is not detected. TQK WP Cache automatically activates universal mode: custom CSS and JS entered below will be compressed and injected into static cache across the entire website."
+msgstr "OpenBuilder chưa được kích hoạt. TQK WP Cache tự động sử dụng tùy chọn chung này: mọi CSS và JS bạn nhập bên dưới sẽ được nén và nhúng trực tiếp vào cache tĩnh cho toàn bộ website mà không phụ thuộc vào bất kỳ builder nào."
+
+msgid "Orphan Postmeta"
+msgstr "Postmeta mồ côi rác"
+
+msgid "Outgoing requests while building admin pages"
+msgstr "Các request đi ra ngoài khi dựng trang admin"
+
+msgid "Overview & Presets"
+msgstr "Tổng quan & Presets"
+
+msgid "PHP Version:"
+msgstr "PHP Version:"
+
+msgid "PRO is a separate add-on plugin, \"TQK WP Cache PRO\". After purchase you receive it together with a licence key. Install and activate it, then enter the key here."
+msgstr "PRO là plugin bổ sung riêng, \"TQK WP Cache PRO\". Sau khi mua bạn nhận plugin cùng mã bản quyền. Hãy cài và kích hoạt nó, rồi nhập mã vào đây."
+
+msgid "PRO is a separate plugin that works on top of this one. Everything in this plugin stays free; PRO adds the following:"
+msgstr "PRO là plugin riêng chạy bên trên plugin này. Mọi thứ trong plugin này vẫn miễn phí; PRO bổ sung những phần sau:"
+
+msgid "Page #%d"
+msgstr "Trang #%d"
+
+msgid "Page Cache"
+msgstr "Bộ nhớ đệm (Page Cache)"
+
+msgid "Page Cache + Gzip + Instant Preload + iFrame LazyLoad + Minify HTML."
+msgstr "Page Cache + Gzip + Instant Preload + LazyLoad iFrames + Minify HTML."
+
+msgid "Pages for logged-in users, commenters, password-protected posts and shopping carts are never cached, so personal data can never reach other visitors."
+msgstr "Trang của người đăng nhập, người bình luận, bài viết có mật khẩu và giỏ hàng không bao giờ được cache, nên dữ liệu cá nhân không thể lọt sang khách khác."
+
+msgid "Permanently deleted %d items in %sms."
+msgstr "Đã xóa vĩnh viễn %d mục trong %sms."
+
+msgid "Permission denied."
+msgstr "Không có quyền truy cập."
+
+msgid "Please check the form."
+msgstr "Hãy kiểm tra lại biểu mẫu."
+
+msgid "Please describe the problem in a few words (at least 10 characters)."
+msgstr "Hãy mô tả sự cố bằng vài từ (ít nhất 10 ký tự)."
+
+msgid "Post #%d (Untitled)"
+msgstr "Bài viết #%d (Không tiêu đề)"
+
+msgid "Post Revisions Analyzer & Selective Pruning"
+msgstr "Phân tích Revisions & Dọn dẹp có chọn lọc an toàn"
+
+msgid "Post Title"
+msgstr "Tiêu đề bài viết"
+
+msgid "Post Type"
+msgstr "Loại Post Type"
+
+msgid "Precise category purge: a new or edited product refreshes only the archives of its own categories"
+msgstr "Purge chính xác theo danh mục: sản phẩm mới hoặc vừa sửa chỉ làm mới các trang lưu trữ thuộc danh mục của nó"
+
+msgid "Preloads the page in background when the user hovers over a link, enabling instantaneous navigation (< 50ms)."
+msgstr "Khi người dùng rê chuột lên liên kết, trình duyệt sẽ tải ngầm trang đó giúp chuyển trang tức thì (< 50ms)."
+
+msgid "Prune Selected Posts"
+msgstr "Dọn dẹp các bài đã chọn"
+
+msgid "Purge & Warmup Cache"
+msgstr "Purge & Tái tạo Cache"
+
+msgid "Purge All Cache"
+msgstr "Xóa toàn bộ Cache"
+
+msgid "Purge Cloudflare together with the local cache"
+msgstr "Purge Cloudflare cùng lúc với cache cục bộ"
+
+msgid "Purge This Page"
+msgstr "Xóa Cache trang này"
+
+msgid "Purged stale cache for URL: %s"
+msgstr "Xóa cache cũ của URL: %s"
+
+msgid "Query Parameters That Get Their Own Cache (One per line):"
+msgstr "Tham số truy vấn được cache riêng (mỗi dòng một tham số):"
+
+msgid "Query cache and persistent object cache (disk, Redis, Memcached)."
+msgstr "Cache truy vấn và object cache bền vững (đĩa, Redis, Memcached)."
+
+msgid "Quick Preset:"
+msgstr "Thiết lập nhanh:"
+
+msgid "Ready to execute..."
+msgstr "Sẵn sàng thực thi..."
+
+msgid "Real-Time Purge & Warmup Progress Tracker"
+msgstr "Tiến trình Purge & Tái tạo Cache Thời Gian Thực"
+
+msgid "Real-time Activity Feed"
+msgstr "Nhật ký hành động thời gian thực (Activity Feed)"
+
+msgid "Reduces network bandwidth transfer by up to 75% per request."
+msgstr "Giảm tới 75% băng thông mạng truyền tải cho mỗi lượt truy cập."
+
+msgid "Refresh Stats"
+msgstr "Làm mới số liệu"
+
+msgid "Remember answers of slow, rarely changing endpoints"
+msgstr "Nhớ câu trả lời của các endpoint chậm, ít thay đổi"
+
+msgid "Removes the invisible-text delay while a Google font loads (the \"Ensure text remains visible\" audit)."
+msgstr "Bỏ độ trễ chữ vô hình trong lúc font Google tải (mục \"Ensure text remains visible\" của Lighthouse)."
+
+msgid "Renders smooth, zero-white-flash page switches when clicking sidebar menus and admin links."
+msgstr "Loại bỏ hoàn toàn hiện tượng chớp trắng màn hình khi bấm chuyển các menu trong trang quản trị."
+
+msgid "Report a problem"
+msgstr "Báo sự cố"
+
+msgid "Report downloaded. Send the file to support."
+msgstr "Đã tải báo cáo. Hãy gửi file cho bên hỗ trợ."
+
+msgid "Restore Selected"
+msgstr "Phục hồi các mục đã chọn"
+
+msgid "Restored %d items successfully."
+msgstr "Đã phục hồi thành công %d mục."
+
+msgid "Revisions"
+msgstr "Số bản sửa đổi"
+
+msgid "Rules & Smart Purge"
+msgstr "Quy tắc loại trừ & Purge"
+
+msgid "Run Purge & Cache Warmup"
+msgstr "Chạy Purge & Tái tạo Cache"
+
+msgid "SQL dependency map: see which database tables and queries each cached page depends on."
+msgstr "Bản đồ phụ thuộc SQL: xem mỗi trang cache phụ thuộc vào bảng và truy vấn nào."
+
+msgid "Safe Mode 100%"
+msgstr "Chế độ An toàn 100%"
+
+msgid "Save"
+msgstr "Lưu"
+
+msgid "Save Cookie Exclusions"
+msgstr "Lưu loại trừ cookie"
+
+msgid "Save Custom CSS"
+msgstr "Lưu CSS tùy chỉnh"
+
+msgid "Save Custom JS"
+msgstr "Lưu JS tùy chỉnh"
+
+msgid "Save Exclusions"
+msgstr "Lưu loại trừ"
+
+msgid "Save Query Parameters"
+msgstr "Lưu tham số truy vấn"
+
+msgid "Save SPA Exclusions"
+msgstr "Lưu loại trừ SPA"
+
+msgid "Save Settings (No Reload)"
+msgstr "Lưu cài đặt (Không reload trang)"
+
+msgid "Save URL Exclusions"
+msgstr "Lưu loại trừ URL"
+
+msgid "Save block list"
+msgstr "Lưu danh sách chặn"
+
+msgid "Save remember list"
+msgstr "Lưu danh sách ghi nhớ"
+
+msgid "Saves megabytes of bandwidth on pages with embedded videos or maps."
+msgstr "Tiết kiệm hàng Megabyte băng thông khi trang có video nhúng hoặc bản đồ."
+
+msgid "Saving settings…"
+msgstr "Đang lưu cài đặt…"
+
+msgid "Scan Revisions"
+msgstr "Quét CSDL Revisions"
+
+msgid "Select a post type above to view items in trash."
+msgstr "Chọn một loại post type ở trên để xem danh sách thùng rác."
+
+msgid "Select a post type below to inspect trash items and perform accelerated deletion without WooCommerce term recount freezes."
+msgstr "Chọn một loại post type bên dưới để kiểm tra thùng rác và thực hiện xóa siêu tốc mà không bị treo do đếm term WooCommerce."
+
+msgid "Send to support"
+msgstr "Gửi cho bên hỗ trợ"
+
+msgid "Sending…"
+msgstr "Đang gửi…"
+
+msgid "Serve images, CSS, JS and fonts from a CDN"
+msgstr "Phục vụ ảnh, CSS, JS và font từ CDN"
+
+msgid "Server & LiteSpeed"
+msgstr "Máy chủ & LiteSpeed"
+
+msgid "Server Compatibility & LiteSpeed Web Server"
+msgstr "Tương thích Máy chủ & LiteSpeed Web Server"
+
+msgid "Server Environment Information:"
+msgstr "Thông tin môi trường máy chủ:"
+
+msgid "Serves cached pages before WordPress loads"
+msgstr "Trả trang đã cache trước khi WordPress khởi động"
+
+msgid "Settings saved successfully!"
+msgstr "Đã lưu cài đặt thành công!"
+
+msgid "Settings saved successfully! Changes are active immediately."
+msgstr "Đã lưu cài đặt thành công! Cấu hình đã có hiệu lực ngay lập tức."
+
+msgid "Settings saved, but another plugin owns wp-content/advanced-cache.php, so the static drop-in is NOT active. Disable the other cache plugin first."
+msgstr "Đã lưu cài đặt, nhưng một plugin khác đang chiếm wp-content/advanced-cache.php nên drop-in tĩnh CHƯA hoạt động. Hãy tắt plugin cache kia trước."
+
+msgid "Settings saved, but wp-content is not writable, so the drop-in could not be installed."
+msgstr "Đã lưu cài đặt, nhưng không ghi được vào wp-content nên chưa cài được drop-in."
+
+msgid "Show Floating Stopwatch HUD & Speed Comparison Counter"
+msgstr "Hiển thị đồng hồ bấm giờ nổi & Bảng so sánh tốc độ (A/B Benchmark)"
+
+msgid "Small site: rebuild everything. Hundreds of pages or thousands of products: choose \"clear only\" or a limit, so the server is not asked to render the whole site at once. After a product changes, only the pages that depended on it are missing, so \"not cached yet\" rebuilds just those."
+msgstr "Site nhỏ: dựng lại tất cả. Hàng trăm trang hoặc hàng ngàn sản phẩm: chọn \"chỉ xoá\" hoặc đặt giới hạn, để máy chủ không phải render cả site cùng lúc. Khi một sản phẩm thay đổi, chỉ các trang phụ thuộc vào nó bị mất cache, nên \"chưa có cache\" chỉ dựng lại đúng những trang đó."
+
+msgid "Small, safe changes applied to the stored page."
+msgstr "Các thay đổi nhỏ, an toàn được áp dụng lên trang trước khi lưu cache."
+
+msgid "Smart Invalidation Rules & Cache Purge"
+msgstr "Quy tắc Xóa Cache thông minh (Smart Invalidation)"
+
+msgid "Smart purge and smart refresh: only the pages that really showed the changed content are rebuilt, in the background."
+msgstr "Xóa cache và làm mới thông minh: chỉ dựng lại các trang thật sự hiển thị nội dung vừa đổi, chạy nền."
+
+msgid "Speed & CWV"
+msgstr "Tăng tốc độ"
+
+msgid "Static Page Cache + Gzip Compression + Image LazyLoad."
+msgstr "Page Cache tĩnh + Nén Gzip + LazyLoad hình ảnh."
+
+msgid "Static Page Cache Configuration"
+msgstr "Cấu hình Bộ nhớ đệm trang tĩnh"
+
+msgid "Strips unnecessary whitespace and comments from static HTML output."
+msgstr "Loại bỏ khoảng trắng và comment không cần thiết trong mã nguồn trang."
+
+msgid "Support / Donate"
+msgstr "Hỗ trợ / Donate"
+
+msgid "Switch Language / Chọn ngôn ngữ"
+msgstr "Chuyển đổi ngôn ngữ / Switch Language"
+
+msgid "Switched to English."
+msgstr "Đã chuyển sang Tiếng Anh."
+
+msgid "Switched to Vietnamese."
+msgstr "Đã chuyển sang Tiếng Việt."
+
+msgid "System is automatically synchronizing Global CSS, Responsive CSS and Page CSS from OpenBuilder into static HTML cache. You can append additional code below."
+msgstr "Hệ thống đang tự động trích xuất Global CSS, Responsive CSS và Page CSS của OpenBuilder để nén và gộp trực tiếp vào HTML cache tĩnh. Bạn có thể chèn thêm mã bổ sung ở các ô bên dưới nếu cần."
+
+msgid "System junk cleaned: %d transients, %d auto-drafts, %d orphan metas."
+msgstr "Đã dọn sạch rác hệ thống: %d transients, %d bản nháp tự động, %d postmeta mồ côi."
+
+msgid "System ready. Click \"Run Purge & Cache Warmup\" to begin full site cache regeneration."
+msgstr "Hệ thống sẵn sàng. Nhấn \"Chạy Purge & Tái tạo Cache\" để bắt đầu tiến trình xóa và nạp lại toàn bộ trang."
+
+msgid "TQK Cache"
+msgstr "TQK Cache"
+
+msgid "TQK Cache Settings"
+msgstr "Cấu hình TQK Cache"
+
+msgid "TQK WP CACHE"
+msgstr "TQK WP CACHE"
+
+msgid "TQK WP CACHE - Developed by"
+msgstr "TQK WP CACHE - phát triển bởi"
+
+msgid "TQK WP Cache PRO (add-on)"
+msgstr "TQK WP Cache PRO (plugin bổ sung)"
+
+msgid "TQK WP Cache requires PHP 8.0 or higher."
+msgstr "TQK WP Cache yêu cầu PHP 8.0 trở lên."
+
+msgid "TQK WP Cache requires WordPress 6.0 or higher."
+msgstr "TQK WP Cache yêu cầu WordPress 6.0 trở lên."
+
+msgid "Tag-based invalidation: only purges the specific post and its associated taxonomy archives without clearing the entire website."
+msgstr "Cơ chế Tag-based: chỉ xóa đúng bài viết đó và các taxonomy liên quan, không xóa toàn bộ website."
+
+msgid "Technical Support:"
+msgstr "Hỗ trợ kỹ thuật:"
+
+msgid "Test connection"
+msgstr "Kiểm tra kết nối"
+
+msgid "Thank you. Your message was sent to support."
+msgstr "Cảm ơn bạn. Tin nhắn đã được gửi tới bên hỗ trợ."
+
+msgid "The CDN must serve the same /wp-content and /wp-includes paths (a \"pull zone\" pointing at this site). Only file addresses inside src, href, srcset and poster attributes change; scripts, JSON and links to pages are left alone."
+msgstr "CDN phải phục vụ cùng đường dẫn /wp-content và /wp-includes (một \"pull zone\" trỏ về site này). Chỉ địa chỉ file trong các thuộc tính src, href, srcset, poster được đổi; script, JSON và liên kết tới trang được giữ nguyên."
+
+msgid "The Zone ID is 32 letters and digits (a-f, 0-9). Copy it from the right column of your domain's Overview page in Cloudflare."
+msgstr "Zone ID gồm 32 ký tự (a-f, 0-9). Sao chép từ cột bên phải trang Overview của tên miền trong Cloudflare."
+
+msgid "The category (and its parent categories), tag and attribute archives of the product are refreshed; archives of other categories are left alone. The scan also reads sidebars and blocks: a page that shows its own \"latest products\" list is still refreshed whenever a product changes."
+msgstr "Trang danh mục (và các danh mục cha), thẻ và thuộc tính của sản phẩm được làm mới; trang của các danh mục khác được giữ nguyên. Bản quét cũng đọc cả sidebar và khối nội dung: trang nào có danh sách \"sản phẩm mới nhất\" riêng vẫn được làm mới mỗi khi sản phẩm thay đổi."
+
+msgid "The e-mail address is not valid."
+msgstr "Địa chỉ e-mail không hợp lệ."
+
+msgid "The message could not be sent. Reload the page and try again."
+msgstr "Không gửi được tin nhắn. Hãy tải lại trang rồi thử lại."
+
+msgid "The message is too long (5000 characters at most)."
+msgstr "Tin nhắn quá dài (tối đa 5000 ký tự)."
+
+msgid "The report could not be created. Reload the page and try again."
+msgstr "Không tạo được báo cáo. Hãy tải lại trang rồi thử lại."
+
+msgid "The static drop-in file is missing. Open the TQK WP Cache settings and press Save to reinstall it."
+msgstr "Thiếu file drop-in tĩnh. Mở cài đặt TQK WP Cache và bấm Lưu để cài lại."
+
+msgid "This server could not send e-mail. Download the support report and send it with your message to %s."
+msgstr "Máy chủ này không gửi được e-mail. Hãy tải báo cáo hỗ trợ và gửi cùng tin nhắn của bạn tới %s."
+
+msgid "Title"
+msgstr "Tiêu đề"
+
+msgid "Total HTML/Gzip static files"
+msgstr "Số lượng file HTML/Gzip"
+
+msgid "Total Revisions in DB"
+msgstr "Tổng Revisions trong CSDL"
+
+msgid "Total static data on disk"
+msgstr "Tổng dữ liệu tĩnh trên đĩa"
+
+msgid "Trash Items"
+msgstr "Mục trong thùng rác"
+
+msgid "Trash Manager"
+msgstr "Quản lý Thùng rác"
+
+msgid "Trash Manager & WooCommerce Fast Purge"
+msgstr "Quản lý Thùng rác & Tăng tốc dọn rác WooCommerce"
+
+msgid "Trash Statistics by Post Type"
+msgstr "Thống kê Thùng rác theo từng Post Type"
+
+msgid "URLs with any other query parameter are not cached (this stops ?random=1,2,3... from filling the disk). Tracking parameters such as utm_*, fbclid and gclid are ignored."
+msgstr "URL có tham số truy vấn khác sẽ không được cache (tránh ?random=1,2,3... làm đầy ổ đĩa). Các tham số theo dõi như utm_*, fbclid, gclid được bỏ qua."
+
+msgid "Universal Custom Code Mode (Compatible with all Themes)"
+msgstr "Chế độ Universal Custom Code độc lập (Tương thích mọi Theme)"
+
+msgid "Unknown"
+msgstr "Không xác định"
+
+msgid "Unlock background bulk media compression, automatic image optimization on upload, and high-performance WebP delivery across your entire website."
+msgstr "Mở khóa tính năng nén media hàng loạt trong nền, tự động tối ưu hóa khi tải lên và phân phối WebP siêu tốc trên toàn trang."
+
+msgid "Upgrade to TQK WP Cache PRO"
+msgstr "Nâng cấp lên TQK WP Cache PRO"
+
+msgid "Usage statistics sent by WooCommerce, Jetpack and similar plugins. Nothing breaks: they ignore the refusal."
+msgstr "Thống kê sử dụng do WooCommerce, Jetpack và các plugin tương tự gửi đi. Không gây lỗi: chúng bỏ qua việc bị từ chối."
+
+msgid "Vietcombank:"
+msgstr "Vietcombank:"
+
+msgid "Visitors on the front end (or a real server cron calling wp-cron.php) still run scheduled tasks. Turn this on only if your site has regular visitors or a server cron, otherwise scheduled posts and backups may run late."
+msgstr "Khách ngoài trang chủ (hoặc cron thật của máy chủ gọi wp-cron.php) vẫn chạy các tác vụ theo lịch. Chỉ bật khi site có khách đều đặn hoặc có cron máy chủ, nếu không bài hẹn giờ và sao lưu có thể chạy trễ."
+
+msgid "WP-Admin Instant Turbo (SPA PushState Engine)"
+msgstr "Tăng tốc Quản trị WP-Admin (Động cơ SPA PushState)"
+
+msgid "WP-Admin SPA URL Exclusions (Bypass, load full page, one per line):"
+msgstr "Danh sách trang loại trừ không dùng SPA (Mỗi đường dẫn 1 dòng):"
+
+msgid "WP_CACHE is not enabled in wp-config.php (the file may not be writable), so WordPress will not load the drop-in. Add define( 'WP_CACHE', true ); to wp-config.php."
+msgstr "WP_CACHE chưa được bật trong wp-config.php (có thể file không ghi được) nên WordPress sẽ không nạp drop-in. Hãy thêm define( 'WP_CACHE', true ); vào wp-config.php."
+
+msgid "Warmup request dispatched (HTTP %d, %s received in %sms)"
+msgstr "Đã gửi yêu cầu nạp cache (HTTP %d, %s nhận được trong %sms)"
+
+msgid "Web Server:"
+msgstr "Web Server:"
+
+msgid "Website Performance Overview"
+msgstr "Tổng quan hiệu năng website"
+
+msgid "What PRO adds"
+msgstr "PRO bổ sung gì"
+
+msgid "What happened? What did you expect? Which page?"
+msgstr "Chuyện gì đã xảy ra? Bạn mong đợi điều gì? Ở trang nào?"
+
+msgid "When TQK refreshes a page (or everything), the same pages are purged at Cloudflare a few seconds later, so the edge never keeps serving old HTML."
+msgstr "Khi TQK làm mới một trang (hoặc toàn bộ), các trang đó cũng được purge ở Cloudflare vài giây sau, nên edge không bao giờ giữ HTML cũ."
+
+msgid "When something goes wrong (a fatal error in the plugin, a drop-in that cannot be written, a read-only cache folder, Cloudflare refusing a purge), a report is saved by itself in this folder. Give support the link."
+msgstr "Khi có sự cố (lỗi nghiêm trọng trong plugin, drop-in không ghi được, thư mục cache chỉ đọc, Cloudflare từ chối xoá cache), một báo cáo tự được lưu vào thư mục này. Hãy đưa đường link cho bên hỗ trợ."
+
+msgid "WordPress internals, builder caches and the usual view counters are ignored. A counter that changes on every visit would rebuild the page all the time: list its meta key below."
+msgstr "Các khóa nội bộ của WordPress, cache của builder và các bộ đếm lượt xem thông dụng được bỏ qua. Bộ đếm đổi sau mỗi lượt truy cập sẽ khiến trang bị dựng lại liên tục: hãy liệt kê khóa meta của nó bên dưới."
+
+msgid "Yes (Ready)"
+msgstr "Có (Sẵn sàng)"
+
+msgid "You are using Custom Settings. Advanced options have been customized manually."
+msgstr "Bạn đang sử dụng Cấu hình Tùy chỉnh (Custom Settings). Các tùy chọn nâng cao đã được cá nhân hóa thủ công."
+
+msgid "You do not have permission to perform this action."
+msgstr "Bạn không có quyền thực hiện thao tác này."
+
+msgid "You do not have permission to save settings."
+msgstr "Bạn không có quyền lưu cấu hình."
+
+msgid "Your e-mail (so support can answer)"
+msgstr "E-mail của bạn (để bên hỗ trợ trả lời)"
+
+msgid "Your name"
+msgstr "Tên của bạn"
+
+msgid "Zone ID:"
+msgstr "Zone ID:"
+
+msgid "hours"
+msgstr "giờ"
+
+msgid "hours (Default: 10 hours)."
+msgstr "giờ (Mặc định: 10 giờ)."
+
+msgid "none recorded"
+msgstr "chưa có"
+
+msgid "pages"
+msgstr "trang"
+
+msgid "saved - type a new one to replace it"
+msgstr "đã lưu - nhập token mới để thay"
+
+msgid "seconds"
+msgstr "giây"
+
+msgid "seconds (Set to 0 to only execute on actual user interaction)."
+msgstr "giây (Nhập 0 để chỉ chạy khi người dùng tương tác thực sự)."

@@ -1,0 +1,978 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+
+msgid "%s #%d"
+msgstr ""
+
+msgid "%s pages queued for rebuild."
+msgstr ""
+
+msgid "1-Click System Junk Cleanup"
+msgstr ""
+
+msgid "A cached page keeps the numbers it had when it was built. Wrap a number that must stay current and it is refreshed in the visitor's browser from a tiny cached endpoint:"
+msgstr ""
+
+msgid "A message was just sent. Please wait a minute before sending another one."
+msgstr ""
+
+msgid "API token (permission \"Zone > Cache Purge\" only):"
+msgstr ""
+
+msgid "Accelerated batch processor bypasses heavy count hooks during deletion for instant speed."
+msgstr ""
+
+msgid "Account Name"
+msgstr ""
+
+msgid "Account Number"
+msgstr ""
+
+msgid "Active"
+msgstr ""
+
+msgid "Admin pages often wait for web requests one after another (update checks of other plugins, tracking pixels, the WP-Cron loop-back). On a slow admin this is usually more time than the whole database. Core, plugin and theme update checks are never touched."
+msgstr ""
+
+msgid "Advanced & System"
+msgstr ""
+
+msgid "All cache cleared successfully!"
+msgstr ""
+
+msgid "Also block these hosts (one per line, e.g. tracking.example.com):"
+msgstr ""
+
+msgid "Also remember these (host or host/path, one per line):"
+msgstr ""
+
+msgid "Among the first three images the first one that is not a small logo is fetched with high priority and never lazy-loaded. Works together with Lazy Load."
+msgstr ""
+
+msgid "Another plugin already owns wp-content/advanced-cache.php, so TQK static caching is inactive. Disable the other page-cache plugin, then save the TQK settings again."
+msgstr ""
+
+msgid "Apply Now"
+msgstr ""
+
+msgid "Apply to Checked"
+msgstr ""
+
+msgid "Attach the support report (versions, theme, settings, last log lines; passwords, tokens, keys and e-mail addresses are removed)"
+msgstr ""
+
+msgid "Author"
+msgstr ""
+
+msgid "Author Information & Technical Support"
+msgstr ""
+
+msgid "Author:"
+msgstr ""
+
+msgid "Auto-Drafts"
+msgstr ""
+
+msgid "Automatic Gzip Compression (.html.gz)"
+msgstr ""
+
+msgid "Automatically adds native browser loading=\"lazy\" to all images."
+msgstr ""
+
+msgid "Automatically combines CSS files in the <head> tag into a single file per page context / post type. Rewrites relative url() for images and fonts to prevent layout breakages."
+msgstr ""
+
+msgid "Automatically compressed and injected into the <head> of cached static pages. Supports CSS variables, custom fonts, or theme overrides."
+msgstr ""
+
+msgid "Automatically injected before the </body> tag in cached static pages. Suitable for analytics, tag managers, or custom optimization scripts."
+msgstr ""
+
+msgid "Automatically purge related cache when publishing or editing posts/comments"
+msgstr ""
+
+msgid "Automatically purges stale cache, scans OpenBuilder options (Global CSS + Responsive), and generates fresh static HTML ready for visitors."
+msgstr ""
+
+msgid "Automatically refresh Homepage Cache on post updates"
+msgstr ""
+
+msgid "Balanced Mode (Recommended)"
+msgstr ""
+
+msgid "Bank"
+msgstr ""
+
+msgid "Block tracking pixels in WP-Admin (pixel.wp.com, stats.wp.com)"
+msgstr ""
+
+msgid "Branch"
+msgstr ""
+
+msgid "Breakthrough 100 Mobile Score"
+msgstr ""
+
+msgid "Built in: envato.github.io (theme update list), api.wordpress.org translations and events. Only plain GET requests without credentials are kept."
+msgstr ""
+
+msgid "CDN address:"
+msgstr ""
+
+msgid "CSS/JS Combination Exclusions (One per line):"
+msgstr ""
+
+msgid "Cache & Core Web Vitals Optimization"
+msgstr ""
+
+msgid "Cache Directory:"
+msgstr ""
+
+msgid "Cache Lifespan (Hours):"
+msgstr ""
+
+msgid "Cache Size"
+msgstr ""
+
+msgid "Cache cleared for this page!"
+msgstr ""
+
+msgid "Cache cleared. Pages are rebuilt when visitors open them, so the server does no extra work now."
+msgstr ""
+
+msgid "Cache generated successfully: %s (HTTP %d, completed in %sms)"
+msgstr ""
+
+msgid "Cached Files"
+msgstr ""
+
+msgid "Cached Pages Count"
+msgstr ""
+
+msgid "Cached pages are served straight from disk before WordPress loads, and heavy scripts wait for the first visitor interaction."
+msgstr ""
+
+msgid "Cached pages for logged-in members on the paths you choose."
+msgstr ""
+
+msgid "Clean All Junk Now"
+msgstr ""
+
+msgid "Cleaned revisions for %d posts, removed %d revision rows safely."
+msgstr ""
+
+msgid "Clear Cache"
+msgstr ""
+
+msgid "Clear Log"
+msgstr ""
+
+msgid "Clear only, visitors rebuild it (big sites)"
+msgstr ""
+
+msgid "Clearing cache…"
+msgstr ""
+
+msgid "Click \"Scan Revisions\" to inspect posts with high revision overhead."
+msgstr ""
+
+msgid "Click to upgrade to PRO"
+msgstr ""
+
+msgid "Close"
+msgstr ""
+
+msgid "Close modal"
+msgstr ""
+
+msgid "Cloudflare"
+msgstr ""
+
+msgid "Collecting the report…"
+msgstr ""
+
+msgid "Combine CSS & JS"
+msgstr ""
+
+msgid "Combine CSS & JS (Post-Type Bundling)"
+msgstr ""
+
+msgid "Combine Header CSS per Post Type"
+msgstr ""
+
+msgid "Combine JavaScript Header & Footer Separately"
+msgstr ""
+
+msgid "Combines JS files in the Header and Footer separately into distinct bundles per post type to preserve execution order."
+msgstr ""
+
+msgid "Communicates directly with LiteSpeed Web Server / OpenLiteSpeed if running on supported hosting."
+msgstr ""
+
+msgid "Complex builders or standalone editors that require traditional full browser reloading (Gutenberg, customizers, update tools)."
+msgstr ""
+
+msgid "Connected to %s (status: %s)."
+msgstr ""
+
+msgid "Connected to OpenBuilder"
+msgstr ""
+
+msgid "Connection error during cache warmup: %s"
+msgstr ""
+
+msgid "Contact"
+msgstr ""
+
+msgid "Copy"
+msgstr ""
+
+msgid "Core Web Vitals helpers & CDN"
+msgstr ""
+
+msgid "Create it in Cloudflare: My Profile > API Tokens > Create Token > \"Cache Purge\" template. The token is kept on the server and is never shown again."
+msgstr ""
+
+msgid "Custom CSS & JavaScript (OpenBuilder Integration & Universal Fallback)"
+msgstr ""
+
+msgid "Database & Cleanup"
+msgstr ""
+
+msgid "Database & Revisions"
+msgstr ""
+
+msgid "Database & Revisions Analyzer"
+msgstr ""
+
+msgid "Default built-in exclusions: /cart, /checkout, /my-account, /wp-admin, /wp-login.php."
+msgstr ""
+
+msgid "Delay JS & Core Web Vitals Optimization"
+msgstr ""
+
+msgid "Delay JS & Optimization"
+msgstr ""
+
+msgid "Delay JS Auto-Execution Timeout (Seconds):"
+msgstr ""
+
+msgid "Delay JS Exclusions (Files excluded from delay, one per line):"
+msgstr ""
+
+msgid "Delay JavaScript Execution (Delay JS)"
+msgstr ""
+
+msgid "Delays execution of non-critical JS scripts until first user interaction (touch or scroll). Critical weapon to achieve 95–100 Google Mobile score!"
+msgstr ""
+
+msgid "Delete Selected Permanently"
+msgstr ""
+
+msgid "Delete all revisions (0 kept)"
+msgstr ""
+
+msgid "Deleted At"
+msgstr ""
+
+msgid "Deleted batch of %d items (%d remaining)."
+msgstr ""
+
+msgid "Direct Author Contact & Support"
+msgstr ""
+
+msgid "Disabled"
+msgstr ""
+
+msgid "Displays a live stopwatch at the bottom right corner when navigating WP-Admin. Automatically compares load times between Normal reload and Turbo SPA."
+msgstr ""
+
+msgid "Do not start WP-Cron from admin page views"
+msgstr ""
+
+msgid "Done."
+msgstr ""
+
+msgid "Download support report"
+msgstr ""
+
+msgid "Drop-in Engine"
+msgstr ""
+
+msgid "Eliminates Total Blocking Time (TBT), maximizes Google PageSpeed scores."
+msgstr ""
+
+msgid "Email:"
+msgstr ""
+
+msgid "Emit LiteSpeed Cache HTTP Headers (X-LiteSpeed-Cache-Control & Tag Purge)"
+msgstr ""
+
+msgid "Empty All Trash for This Type"
+msgstr ""
+
+msgid "Enable Delay JS + Instant Preload + Tag Purge + Gzip + Minify HTML."
+msgstr ""
+
+msgid "Enable Lazy Load for All Images"
+msgstr ""
+
+msgid "Enable Lazy Load for iFrames & Videos (YouTube, Vimeo, Google Maps)"
+msgstr ""
+
+msgid "Enable Page Cache (Drop-in Engine)"
+msgstr ""
+
+msgid "Enable WP-Admin Instant Turbo SPA Navigation"
+msgstr ""
+
+msgid "Est. Size"
+msgstr ""
+
+msgid "Every page that is not cached yet (up to the limit)"
+msgstr ""
+
+msgid "Expired Transients"
+msgstr ""
+
+msgid "Faster Pages With a Static HTML Cache & Smart JavaScript Delay"
+msgstr ""
+
+msgid "Folder:"
+msgstr ""
+
+msgid "Frequent post edits accumulate dozens of revisions, slowing down WP queries. Selectively keep the recent versions for maximum safety."
+msgstr ""
+
+msgid "General Settings"
+msgstr ""
+
+msgid "Generates advanced-cache.php in wp-content/ to serve static HTML directly without heavy PHP/MySQL processing."
+msgstr ""
+
+msgid "Global Custom CSS:"
+msgstr ""
+
+msgid "Global Custom JS:"
+msgstr ""
+
+msgid "Google Fonts: show text at once (display=swap) and preconnect to the font files"
+msgstr ""
+
+msgid "Guaranteed 100% safe, no impact on any layout or functionality."
+msgstr ""
+
+msgid "Gzip Support:"
+msgstr ""
+
+msgid "Homepage"
+msgstr ""
+
+msgid "Hotline / Zalo:"
+msgstr ""
+
+msgid "How to get PRO"
+msgstr ""
+
+msgid "How to rebuild the cache:"
+msgstr ""
+
+msgid "Hybrid Server-Level & Front-End Booster Architecture"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid "Image and WebP optimiser with bulk compression and a before / after viewer."
+msgstr ""
+
+msgid "Incident log"
+msgstr ""
+
+msgid "Instant Preload (Preload on link hover / touchstart)"
+msgstr ""
+
+msgid "Instant browsing experience (< 50ms) and silky smooth responsiveness."
+msgstr ""
+
+msgid "Instantly clear expired transients, abandoned auto-drafts, and orphan post metadata without touching published content."
+msgstr ""
+
+msgid "Invalid URL address."
+msgstr ""
+
+msgid "Invalid post type."
+msgstr ""
+
+msgid "Item #%d (Untitled)"
+msgstr ""
+
+msgid "Keep Newest"
+msgstr ""
+
+msgid "Keep for"
+msgstr ""
+
+msgid "Keep last 10 revisions"
+msgstr ""
+
+msgid "Keep last 3 revisions (Default)"
+msgstr ""
+
+msgid "Keep last 5 revisions"
+msgstr ""
+
+msgid "Keep these on the site (a part of the address, one per line):"
+msgstr ""
+
+msgid "Key pages only (homepage, pages, one sample per type)"
+msgstr ""
+
+msgid "Last Modified"
+msgstr ""
+
+msgid "Last incident:"
+msgstr ""
+
+msgid "Last purge sent to Cloudflare: %1$s - %2$s"
+msgstr ""
+
+msgid "Likes, votes and other post meta changes refresh the pages that show the post, at most once every:"
+msgstr ""
+
+msgid "Limit:"
+msgstr ""
+
+msgid "Link to the newest incident:"
+msgstr ""
+
+msgid "Live Cache Warmup & OpenBuilder Sync (Activity Tracker)"
+msgstr ""
+
+msgid "Live numbers on cached pages"
+msgstr ""
+
+msgid "Load the main image first (fetchpriority=high on the likely LCP image)"
+msgstr ""
+
+msgid "Loading trash overview…"
+msgstr ""
+
+msgid "Logged-In Visitors"
+msgstr ""
+
+msgid "Login, comment, password-protected post and WooCommerce cart cookies are always excluded. Add your own, e.g. a membership or currency-switcher cookie."
+msgstr ""
+
+msgid "Media & LazyLoad"
+msgstr ""
+
+msgid "Media & LazyLoad Optimization"
+msgstr ""
+
+msgid "Meta keys [tqk_live source=\"meta\"] may show (one per line):"
+msgstr ""
+
+msgid "Meta keys that never refresh a page (one per line):"
+msgstr ""
+
+msgid "Minify HTML Code"
+msgstr ""
+
+msgid "Navigates across WP-Admin without full page reload. Retains admin menu and top bar, diffs and ingests only newly required CSS and JS dynamically."
+msgstr ""
+
+msgid "Never Cache URL Exclusions (One per line):"
+msgstr ""
+
+msgid "Never Cache When A Cookie Starts With (One per line):"
+msgstr ""
+
+msgid "Next-Gen Media & DB (Pro)"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "No Cloudflare API token saved."
+msgstr ""
+
+msgid "No items selected."
+msgstr ""
+
+msgid "No posts selected for revision cleanup."
+msgstr ""
+
+msgid "Nothing is sent until you press the button. The message goes to %s."
+msgstr ""
+
+msgid "Nothing to rebuild: every public page (up to the limit) already has a fresh cache."
+msgstr ""
+
+msgid "OK"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "One-Click Configuration Presets"
+msgstr ""
+
+msgid "Only keys listed here are readable, so private meta is never exposed."
+msgstr ""
+
+msgid "OpenBuilder detected: Synced Global CSS and Responsive options into cache"
+msgstr ""
+
+msgid "OpenBuilder is not detected. TQK WP Cache automatically activates universal mode: custom CSS and JS entered below will be compressed and injected into static cache across the entire website."
+msgstr ""
+
+msgid "Orphan Postmeta"
+msgstr ""
+
+msgid "Outgoing requests while building admin pages"
+msgstr ""
+
+msgid "Overview & Presets"
+msgstr ""
+
+msgid "PHP Version:"
+msgstr ""
+
+msgid "PRO is a separate add-on plugin, \"TQK WP Cache PRO\". After purchase you receive it together with a licence key. Install and activate it, then enter the key here."
+msgstr ""
+
+msgid "PRO is a separate plugin that works on top of this one. Everything in this plugin stays free; PRO adds the following:"
+msgstr ""
+
+msgid "Page #%d"
+msgstr ""
+
+msgid "Page Cache"
+msgstr ""
+
+msgid "Page Cache + Gzip + Instant Preload + iFrame LazyLoad + Minify HTML."
+msgstr ""
+
+msgid "Pages for logged-in users, commenters, password-protected posts and shopping carts are never cached, so personal data can never reach other visitors."
+msgstr ""
+
+msgid "Permanently deleted %d items in %sms."
+msgstr ""
+
+msgid "Permission denied."
+msgstr ""
+
+msgid "Please check the form."
+msgstr ""
+
+msgid "Please describe the problem in a few words (at least 10 characters)."
+msgstr ""
+
+msgid "Post #%d (Untitled)"
+msgstr ""
+
+msgid "Post Revisions Analyzer & Selective Pruning"
+msgstr ""
+
+msgid "Post Title"
+msgstr ""
+
+msgid "Post Type"
+msgstr ""
+
+msgid "Precise category purge: a new or edited product refreshes only the archives of its own categories"
+msgstr ""
+
+msgid "Preloads the page in background when the user hovers over a link, enabling instantaneous navigation (< 50ms)."
+msgstr ""
+
+msgid "Prune Selected Posts"
+msgstr ""
+
+msgid "Purge & Warmup Cache"
+msgstr ""
+
+msgid "Purge All Cache"
+msgstr ""
+
+msgid "Purge Cloudflare together with the local cache"
+msgstr ""
+
+msgid "Purge This Page"
+msgstr ""
+
+msgid "Purged stale cache for URL: %s"
+msgstr ""
+
+msgid "Query Parameters That Get Their Own Cache (One per line):"
+msgstr ""
+
+msgid "Query cache and persistent object cache (disk, Redis, Memcached)."
+msgstr ""
+
+msgid "Quick Preset:"
+msgstr ""
+
+msgid "Ready to execute..."
+msgstr ""
+
+msgid "Real-Time Purge & Warmup Progress Tracker"
+msgstr ""
+
+msgid "Real-time Activity Feed"
+msgstr ""
+
+msgid "Reduces network bandwidth transfer by up to 75% per request."
+msgstr ""
+
+msgid "Refresh Stats"
+msgstr ""
+
+msgid "Remember answers of slow, rarely changing endpoints"
+msgstr ""
+
+msgid "Removes the invisible-text delay while a Google font loads (the \"Ensure text remains visible\" audit)."
+msgstr ""
+
+msgid "Renders smooth, zero-white-flash page switches when clicking sidebar menus and admin links."
+msgstr ""
+
+msgid "Report a problem"
+msgstr ""
+
+msgid "Report downloaded. Send the file to support."
+msgstr ""
+
+msgid "Restore Selected"
+msgstr ""
+
+msgid "Restored %d items successfully."
+msgstr ""
+
+msgid "Revisions"
+msgstr ""
+
+msgid "Rules & Smart Purge"
+msgstr ""
+
+msgid "Run Purge & Cache Warmup"
+msgstr ""
+
+msgid "SQL dependency map: see which database tables and queries each cached page depends on."
+msgstr ""
+
+msgid "Safe Mode 100%"
+msgstr ""
+
+msgid "Save"
+msgstr ""
+
+msgid "Save Cookie Exclusions"
+msgstr ""
+
+msgid "Save Custom CSS"
+msgstr ""
+
+msgid "Save Custom JS"
+msgstr ""
+
+msgid "Save Exclusions"
+msgstr ""
+
+msgid "Save Query Parameters"
+msgstr ""
+
+msgid "Save SPA Exclusions"
+msgstr ""
+
+msgid "Save Settings (No Reload)"
+msgstr ""
+
+msgid "Save URL Exclusions"
+msgstr ""
+
+msgid "Save block list"
+msgstr ""
+
+msgid "Save remember list"
+msgstr ""
+
+msgid "Saves megabytes of bandwidth on pages with embedded videos or maps."
+msgstr ""
+
+msgid "Saving settings…"
+msgstr ""
+
+msgid "Scan Revisions"
+msgstr ""
+
+msgid "Select a post type above to view items in trash."
+msgstr ""
+
+msgid "Select a post type below to inspect trash items and perform accelerated deletion without WooCommerce term recount freezes."
+msgstr ""
+
+msgid "Send to support"
+msgstr ""
+
+msgid "Sending…"
+msgstr ""
+
+msgid "Serve images, CSS, JS and fonts from a CDN"
+msgstr ""
+
+msgid "Server & LiteSpeed"
+msgstr ""
+
+msgid "Server Compatibility & LiteSpeed Web Server"
+msgstr ""
+
+msgid "Server Environment Information:"
+msgstr ""
+
+msgid "Serves cached pages before WordPress loads"
+msgstr ""
+
+msgid "Settings saved successfully!"
+msgstr ""
+
+msgid "Settings saved successfully! Changes are active immediately."
+msgstr ""
+
+msgid "Settings saved, but another plugin owns wp-content/advanced-cache.php, so the static drop-in is NOT active. Disable the other cache plugin first."
+msgstr ""
+
+msgid "Settings saved, but wp-content is not writable, so the drop-in could not be installed."
+msgstr ""
+
+msgid "Show Floating Stopwatch HUD & Speed Comparison Counter"
+msgstr ""
+
+msgid "Small site: rebuild everything. Hundreds of pages or thousands of products: choose \"clear only\" or a limit, so the server is not asked to render the whole site at once. After a product changes, only the pages that depended on it are missing, so \"not cached yet\" rebuilds just those."
+msgstr ""
+
+msgid "Small, safe changes applied to the stored page."
+msgstr ""
+
+msgid "Smart Invalidation Rules & Cache Purge"
+msgstr ""
+
+msgid "Smart purge and smart refresh: only the pages that really showed the changed content are rebuilt, in the background."
+msgstr ""
+
+msgid "Speed & CWV"
+msgstr ""
+
+msgid "Static Page Cache + Gzip Compression + Image LazyLoad."
+msgstr ""
+
+msgid "Static Page Cache Configuration"
+msgstr ""
+
+msgid "Strips unnecessary whitespace and comments from static HTML output."
+msgstr ""
+
+msgid "Support / Donate"
+msgstr ""
+
+msgid "Switch Language / Chọn ngôn ngữ"
+msgstr ""
+
+msgid "Switched to English."
+msgstr ""
+
+msgid "Switched to Vietnamese."
+msgstr ""
+
+msgid "System is automatically synchronizing Global CSS, Responsive CSS and Page CSS from OpenBuilder into static HTML cache. You can append additional code below."
+msgstr ""
+
+msgid "System junk cleaned: %d transients, %d auto-drafts, %d orphan metas."
+msgstr ""
+
+msgid "System ready. Click \"Run Purge & Cache Warmup\" to begin full site cache regeneration."
+msgstr ""
+
+msgid "TQK Cache"
+msgstr ""
+
+msgid "TQK Cache Settings"
+msgstr ""
+
+msgid "TQK WP CACHE"
+msgstr ""
+
+msgid "TQK WP CACHE - Developed by"
+msgstr ""
+
+msgid "TQK WP Cache PRO (add-on)"
+msgstr ""
+
+msgid "TQK WP Cache requires PHP 8.0 or higher."
+msgstr ""
+
+msgid "TQK WP Cache requires WordPress 6.0 or higher."
+msgstr ""
+
+msgid "Tag-based invalidation: only purges the specific post and its associated taxonomy archives without clearing the entire website."
+msgstr ""
+
+msgid "Technical Support:"
+msgstr ""
+
+msgid "Test connection"
+msgstr ""
+
+msgid "Thank you. Your message was sent to support."
+msgstr ""
+
+msgid "The CDN must serve the same /wp-content and /wp-includes paths (a \"pull zone\" pointing at this site). Only file addresses inside src, href, srcset and poster attributes change; scripts, JSON and links to pages are left alone."
+msgstr ""
+
+msgid "The Zone ID is 32 letters and digits (a-f, 0-9). Copy it from the right column of your domain's Overview page in Cloudflare."
+msgstr ""
+
+msgid "The category (and its parent categories), tag and attribute archives of the product are refreshed; archives of other categories are left alone. The scan also reads sidebars and blocks: a page that shows its own \"latest products\" list is still refreshed whenever a product changes."
+msgstr ""
+
+msgid "The e-mail address is not valid."
+msgstr ""
+
+msgid "The message could not be sent. Reload the page and try again."
+msgstr ""
+
+msgid "The message is too long (5000 characters at most)."
+msgstr ""
+
+msgid "The report could not be created. Reload the page and try again."
+msgstr ""
+
+msgid "The static drop-in file is missing. Open the TQK WP Cache settings and press Save to reinstall it."
+msgstr ""
+
+msgid "This server could not send e-mail. Download the support report and send it with your message to %s."
+msgstr ""
+
+msgid "Title"
+msgstr ""
+
+msgid "Total HTML/Gzip static files"
+msgstr ""
+
+msgid "Total Revisions in DB"
+msgstr ""
+
+msgid "Total static data on disk"
+msgstr ""
+
+msgid "Trash Items"
+msgstr ""
+
+msgid "Trash Manager"
+msgstr ""
+
+msgid "Trash Manager & WooCommerce Fast Purge"
+msgstr ""
+
+msgid "Trash Statistics by Post Type"
+msgstr ""
+
+msgid "URLs with any other query parameter are not cached (this stops ?random=1,2,3... from filling the disk). Tracking parameters such as utm_*, fbclid and gclid are ignored."
+msgstr ""
+
+msgid "Universal Custom Code Mode (Compatible with all Themes)"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid "Unlock background bulk media compression, automatic image optimization on upload, and high-performance WebP delivery across your entire website."
+msgstr ""
+
+msgid "Upgrade to TQK WP Cache PRO"
+msgstr ""
+
+msgid "Usage statistics sent by WooCommerce, Jetpack and similar plugins. Nothing breaks: they ignore the refusal."
+msgstr ""
+
+msgid "Vietcombank:"
+msgstr ""
+
+msgid "Visitors on the front end (or a real server cron calling wp-cron.php) still run scheduled tasks. Turn this on only if your site has regular visitors or a server cron, otherwise scheduled posts and backups may run late."
+msgstr ""
+
+msgid "WP-Admin Instant Turbo (SPA PushState Engine)"
+msgstr ""
+
+msgid "WP-Admin SPA URL Exclusions (Bypass, load full page, one per line):"
+msgstr ""
+
+msgid "WP_CACHE is not enabled in wp-config.php (the file may not be writable), so WordPress will not load the drop-in. Add define( 'WP_CACHE', true ); to wp-config.php."
+msgstr ""
+
+msgid "Warmup request dispatched (HTTP %d, %s received in %sms)"
+msgstr ""
+
+msgid "Web Server:"
+msgstr ""
+
+msgid "Website Performance Overview"
+msgstr ""
+
+msgid "What PRO adds"
+msgstr ""
+
+msgid "What happened? What did you expect? Which page?"
+msgstr ""
+
+msgid "When TQK refreshes a page (or everything), the same pages are purged at Cloudflare a few seconds later, so the edge never keeps serving old HTML."
+msgstr ""
+
+msgid "When something goes wrong (a fatal error in the plugin, a drop-in that cannot be written, a read-only cache folder, Cloudflare refusing a purge), a report is saved by itself in this folder. Give support the link."
+msgstr ""
+
+msgid "WordPress internals, builder caches and the usual view counters are ignored. A counter that changes on every visit would rebuild the page all the time: list its meta key below."
+msgstr ""
+
+msgid "Yes (Ready)"
+msgstr ""
+
+msgid "You are using Custom Settings. Advanced options have been customized manually."
+msgstr ""
+
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+msgid "You do not have permission to save settings."
+msgstr ""
+
+msgid "Your e-mail (so support can answer)"
+msgstr ""
+
+msgid "Your name"
+msgstr ""
+
+msgid "Zone ID:"
+msgstr ""
+
+msgid "hours"
+msgstr ""
+
+msgid "hours (Default: 10 hours)."
+msgstr ""
+
+msgid "none recorded"
+msgstr ""
+
+msgid "pages"
+msgstr ""
+
+msgid "saved - type a new one to replace it"
+msgstr ""
+
+msgid "seconds"
+msgstr ""
+
+msgid "seconds (Set to 0 to only execute on actual user interaction)."
+msgstr ""
