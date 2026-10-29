@@ -2,7 +2,7 @@
 /**
  * Plugin Name: TQK WP Cache
  * Plugin URI: https://www.facebook.com/Unk.khai/
- * Description: High-Performance Page Caching & Core Web Vitals Optimization Engine. Combines the lightweight server-level speed of LiteSpeed with the smart user-friendly optimizations of WP Rocket (Delay JS, Instant Preload, Tag-based Purge, Dynamic Fragment Bypass). Support: 0364 999 916.
+ * Description: High-Performance Page Caching & Core Web Vitals Optimization Engine. Combines lightweight server-level speed with smart optimizations (Delay JS, Instant Preload, Tag-based Purge, Dynamic Fragment Bypass).
  * Version: 1.0.0
  * Author: Trương Quang Khải
  * Author URI: https://www.facebook.com/Unk.khai/
@@ -11,6 +11,7 @@
  * Requires at least: 6.0
  * Requires PHP: 8.0
  * License: GPL v2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 defined('ABSPATH') || exit;
