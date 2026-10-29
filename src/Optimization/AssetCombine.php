@@ -257,6 +257,7 @@ class AssetCombine {
             return false; // missing, or an empty bundle left by an earlier bug: rebuild
         }
         if (time() - $mtime > 3600) {
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             @touch($path);
         }
         return true;

@@ -136,8 +136,9 @@ class Dropin {
         if (@file_put_contents($tmp, $code, LOCK_EX) === false) {
             return 'error';
         }
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         if (!@rename($tmp, $path)) {
-            @unlink($tmp);
+            @wp_delete_file($tmp);
             if (@file_put_contents($path, $code, LOCK_EX) === false) {
                 return 'error';
             }
@@ -169,7 +170,7 @@ class Dropin {
     public static function uninstall(): bool {
         $path = self::get_dropin_path();
         if (file_exists($path) && strpos((string)@file_get_contents($path), self::MARKER) !== false) {
-            @unlink($path);
+            @wp_delete_file($path);
         }
         self::ensure_wp_cache_constant(false);
         return true;
@@ -195,8 +196,10 @@ class Dropin {
 
     private static function ensure_wp_cache_constant(bool $enable): void {
         $wp_config = ABSPATH . 'wp-config.php';
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         if (!file_exists($wp_config) || !is_writable($wp_config)) {
             $wp_config = dirname(ABSPATH) . '/wp-config.php'; // Bedrock / custom layouts
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             if (!file_exists($wp_config) || !is_writable($wp_config)) {
                 return;
             }
@@ -232,10 +235,11 @@ class Dropin {
         // One-time backup, then atomic replace so a crash mid-write cannot leave a half-written wp-config.php.
         self::write_config_backup($wp_config, $content);
         $tmp = dirname($wp_config) . '/wp-config.tqk-tmp.php';
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         if (@file_put_contents($tmp, $new, LOCK_EX) !== false && @rename($tmp, $wp_config)) {
             return;
         }
-        @unlink($tmp);
+        @wp_delete_file($tmp);
         @file_put_contents($wp_config, $new, LOCK_EX);
     }
 
@@ -252,6 +256,7 @@ class Dropin {
         }
         $guard = "<?php\nexit; // TQK WP Cache: copy of wp-config.php made before WP_CACHE was added. To restore it, delete these two lines and the next one.\n?>\n";
         if (@file_put_contents($backup, $guard . $content, LOCK_EX) !== false) {
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             @chmod($backup, 0600);
         }
     }
@@ -268,8 +273,8 @@ class Dropin {
             if ($content !== '') {
                 self::write_config_backup($dir . 'wp-config.php', $content);
             }
-            @unlink($old);
-            @unlink($dir . 'wp-config.php.tqk-tmp');
+            @wp_delete_file($old);
+            @wp_delete_file($dir . 'wp-config.php.tqk-tmp');
         }
     }
 
@@ -316,8 +321,8 @@ class Dropin {
     }
 
     $uri   = (string)($_SERVER['REQUEST_URI'] ?? '/');
-    $path  = (string)parse_url($uri, PHP_URL_PATH);
-    $query = (string)parse_url($uri, PHP_URL_QUERY);
+    $path  = (string)wp_parse_url($uri, PHP_URL_PATH);
+    $query = (string)wp_parse_url($uri, PHP_URL_QUERY);
     if ($path === '' || $path[0] !== '/') {
         return;
     }
@@ -463,22 +468,26 @@ class Dropin {
     if (!is_dir($lockDir)) {
         @mkdir($lockDir, 0777, true);
     }
+    // phpcs:ignore WordPress.WP.AlternativeFunctions
     $lock = @fopen($lockDir . '/' . md5($html) . '.lock', 'c');
     if ($lock && flock($lock, LOCK_EX | LOCK_NB)) {
         // We are the builder. Respect the site-wide limit of parallel builds.
         $slot = null;
         for ($i = 0; $i < $cfg['slots']; $i++) {
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             $s = @fopen($lockDir . '/slot' . $i . '.lock', 'c');
             if ($s && flock($s, LOCK_EX | LOCK_NB)) {
                 $slot = $s;
                 break;
             }
             if ($s) {
+                // phpcs:ignore WordPress.WP.AlternativeFunctions
                 fclose($s);
             }
         }
         if ($slot === null && $staleOk) {
             flock($lock, LOCK_UN);
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             fclose($lock);
             $send($html, true);   // too many builds already running: answer from the stale copy
             return;
@@ -487,6 +496,7 @@ class Dropin {
         return;                                         // fall through to WordPress: this request rebuilds the page
     }
     if ($lock) {
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         fclose($lock);
     }
 

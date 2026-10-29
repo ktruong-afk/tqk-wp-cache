@@ -76,7 +76,7 @@ class IncidentLog {
         $i = 0;
         foreach ($files as $f => $mtime) {
             if ($i++ >= $keep || ($now - $mtime) > $max_age) {
-                if (@unlink($f)) {
+                if (@wp_delete_file($f)) {
                     $removed++;
                 }
             }
@@ -142,6 +142,7 @@ class IncidentLog {
         if (!is_file($dir . '/index.html')) {
             @file_put_contents($dir . '/index.html', '');
         }
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         return is_writable($dir);
     }
 
@@ -178,6 +179,7 @@ class IncidentLog {
         if ($status === 'foreign' || $status === 'missing') {
             self::record('dropin-' . $status, 'The page-cache drop-in is ' . $status . '.');
         }
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         if (is_dir(TQK_WP_CACHE_STORAGE_DIR) && !is_writable(TQK_WP_CACHE_STORAGE_DIR)) {
             self::record('storage-readonly', 'The cache folder is not writable.', ['dir' => TQK_WP_CACHE_STORAGE_DIR]);
         }

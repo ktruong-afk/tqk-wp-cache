@@ -129,7 +129,7 @@ defined('ABSPATH') || exit;
                                 <button type="button" class="tqk-btn tqk-btn-outline tqk-btn-sm tqk-console-clear-btn"><?php esc_html_e('Clear Log', 'tqk-wp-cache'); ?></button>
                             </div>
                             <div id="tqk-console-body" class="tqk-console-body">
-                                <div class="tqk-log-line is-info"><span class="log-time">[<?php echo date('H:i:s'); ?>]</span> <?php esc_html_e('System ready. Click "Run Purge & Cache Warmup" to begin full site cache regeneration.', 'tqk-wp-cache'); ?></div>
+                                <div class="tqk-log-line is-info"><span class="log-time">[<?php echo gmdate('H:i:s'); ?>]</span> <?php esc_html_e('System ready. Click "Run Purge & Cache Warmup" to begin full site cache regeneration.', 'tqk-wp-cache'); ?></div>
                             </div>
                         </div>
                     </div>

@@ -24,6 +24,7 @@ class TrashManager {
             ORDER BY count DESC
         ";
 
+        // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
         $rows = $wpdb->get_results($sql, ARRAY_A);
         $summary = [];
 
@@ -61,6 +62,7 @@ class TrashManager {
             LIMIT %d OFFSET %d
         ";
 
+        // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
         $rows = $wpdb->get_results($wpdb->prepare($sql, $post_type, $limit, $offset), ARRAY_A);
         $items = [];
 

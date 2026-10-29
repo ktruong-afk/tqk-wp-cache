@@ -28,9 +28,9 @@ class Support {
      */
     public static function clean(array $post): array
     {
-        $name = trim(strip_tags((string)($post['name'] ?? '')));
+        $name = trim(wp_strip_all_tags((string)($post['name'] ?? '')));
         $email = trim((string)($post['email'] ?? ''));
-        $message = trim(strip_tags((string)($post['message'] ?? '')));
+        $message = trim(wp_strip_all_tags((string)($post['message'] ?? '')));
         if ($email !== '' && !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             return ['ok' => false, 'error' => 'email'];
         }
@@ -77,6 +77,7 @@ class Support {
             $tmp = wp_tempnam('tqk-report');
             if ($tmp && @file_put_contents($tmp, wp_json_encode((new Diagnostics())->collect(), JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES))) {
                 $named = dirname($tmp) . '/tqk-report-' . $host . '-' . gmdate('Ymd-His') . '.json';
+                // phpcs:ignore WordPress.WP.AlternativeFunctions
                 $attachments[] = @rename($tmp, $named) ? $named : $tmp;
                 $tmp = $attachments[0];
             }
@@ -88,7 +89,7 @@ class Support {
         $subject = '[TQK WP Cache] ' . $host . ' - ' . mb_substr(preg_replace('/\s+/', ' ', $in['message']), 0, 60);
         $sent = wp_mail(self::to(), $subject, $body, $headers, $attachments);
         if ($tmp !== '') {
-            @unlink($tmp);
+            @wp_delete_file($tmp);
         }
         if (!$sent) {
             wp_send_json_error(['message' => sprintf(

@@ -30,6 +30,7 @@ class Analyzer {
             LIMIT %d
         ";
 
+        // phpcs:ignore WordPress.DB.PreparedSQL.NotPrepared
         $results = $wpdb->get_results($wpdb->prepare($sql, $limit), ARRAY_A);
         if (!$results) {
             return [];

@@ -19,7 +19,7 @@ $dropin_file = WP_CONTENT_DIR . '/advanced-cache.php';
 if (file_exists($dropin_file)) {
     $content = @file_get_contents($dropin_file);
     if ($content && strpos($content, 'TQK_WP_CACHE_DROPIN') !== false) {
-        @unlink($dropin_file);
+        @wp_delete_file($dropin_file);
     }
 }
 
@@ -35,7 +35,7 @@ if (is_dir($cache_dir)) {
         if ($item->isDir()) {
             @rmdir($item->getPathname());
         } else {
-            @unlink($item->getPathname());
+            @wp_delete_file($item->getPathname());
         }
     }
     @rmdir($cache_dir);

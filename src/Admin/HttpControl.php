@@ -64,7 +64,7 @@ class HttpControl {
     /** Does the URL match one of the rules ("host" = that host or a sub-domain of it, "host/prefix" = that host and path prefix)? */
     public static function matches(string $url, array $rules): bool
     {
-        $parts = parse_url($url);
+        $parts = wp_parse_url($url);
         if (empty($parts['host'])) {
             return false;
         }

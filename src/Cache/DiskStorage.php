@@ -143,6 +143,7 @@ class DiskStorage {
     public function mark_uncacheable(string $url, bool $mobile = false): void {
         $v = $this->variant($url, $mobile);
         if ($v !== null && is_dir($v['dir']) || ($v !== null && $this->ensure_dir($v['dir']))) {
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             @touch($v['dir'] . '/' . $v['base'] . '.nocache');
         }
     }
@@ -176,6 +177,7 @@ class DiskStorage {
         // older than the marker, or the very next visitor would rebuild it again for nothing.
         $epoch = $this->epoch();
         if ($epoch > time()) {
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             @touch($html_file, $epoch);
         }
 
@@ -184,13 +186,14 @@ class DiskStorage {
             $gz = gzencode($final, 9);
             if ($gz !== false && $this->atomic_write($gz_file, $gz)) {
                 // The drop-in only serves the .gz when its mtime matches the .html (guards against a stale .gz).
+                // phpcs:ignore WordPress.WP.AlternativeFunctions
                 @touch($gz_file, (int)@filemtime($html_file));
             }
         } else {
-            @unlink($gz_file); // gzip switched off: never leave an old copy that could be served
+            @wp_delete_file($gz_file); // gzip switched off: never leave an old copy that could be served
         }
 
-        @unlink($v['dir'] . '/' . $v['base'] . '.nocache');   // it can be cached after all
+        @wp_delete_file($v['dir'] . '/' . $v['base'] . '.nocache');   // it can be cached after all
         $this->atomic_write($v['dir'] . '/' . $v['base'] . '.meta.json', wp_json_encode([
             'url'        => $url,
             'tags'       => $tags,
@@ -210,10 +213,11 @@ class DiskStorage {
         if (@file_put_contents($tmp, $content, LOCK_EX) === false) {
             return false;
         }
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         if (!@rename($tmp, $file)) {
             // Windows cannot rename over a file another process has open.
             $ok = @copy($tmp, $file);
-            @unlink($tmp);
+            @wp_delete_file($tmp);
             return $ok;
         }
         return true;
@@ -255,17 +259,18 @@ class DiskStorage {
         if ($hard) {
             foreach (['.html', '.html.gz', '.meta.json', '.nocache'] as $ext) {
                 if (file_exists($stem . $ext)) {
-                    @unlink($stem . $ext);
+                    @wp_delete_file($stem . $ext);
                 }
             }
             return;
         }
         if (file_exists($stem . '.html')) {
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             @touch($stem . '.html', 1);
         }
         foreach (['.html.gz', '.nocache'] as $ext) {
             if (file_exists($stem . $ext)) {
-                @unlink($stem . $ext);
+                @wp_delete_file($stem . $ext);
             }
         }
     }
@@ -332,7 +337,7 @@ class DiskStorage {
             return 0;
         }
         $lines = @file($idx, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES) ?: [];
-        @unlink($idx);
+        @wp_delete_file($idx);
 
         $count = 0;
         foreach (array_unique($lines) as $rel) {
@@ -374,6 +379,7 @@ class DiskStorage {
                 return false;
             }
             // mtime = now + 1s: a page written in the same second as the purge must count as purged too (file times have 1 s resolution).
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             return (bool)@file_put_contents($this->base_dir . '/_epoch', (string)microtime(true)) && @touch($this->base_dir . '/_epoch', time() + 1);
         }
         if (!is_dir($this->base_dir)) {
@@ -392,7 +398,7 @@ class DiskStorage {
             if (is_dir($target)) {
                 $this->delete_directory($target, true);
             } else {
-                @unlink($target);
+                @wp_delete_file($target);
             }
         }
         return true;
@@ -482,9 +488,10 @@ class DiskStorage {
             if (is_dir($item) && !is_link($item)) {
                 $this->delete_directory($item, true);
             } else {
-                @unlink($item);
+                @wp_delete_file($item);
             }
         }
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         return $remove_root ? @rmdir($dir) : true;
     }
 }

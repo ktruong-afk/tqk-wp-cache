@@ -206,9 +206,10 @@ class Config {
         $tmp = $file . '.tmp.' . uniqid('', true);
 
         if (@file_put_contents($tmp, $content, LOCK_EX) !== false) {
+            // phpcs:ignore WordPress.WP.AlternativeFunctions
             $success = @rename($tmp, $file);
             if (!$success) {
-                @unlink($tmp);
+                @wp_delete_file($tmp);
                 return (bool)@file_put_contents($file, $content, LOCK_EX);
             }
             if (function_exists('opcache_invalidate')) {

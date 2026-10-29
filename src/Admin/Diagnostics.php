@@ -94,8 +94,10 @@ class Diagnostics {
                 'status'          => Dropin::status(),
                 'active'          => Dropin::is_active(),
                 'wp_cache_const'  => defined('WP_CACHE') && WP_CACHE,
+                // phpcs:ignore WordPress.WP.AlternativeFunctions
                 'content_writable' => is_writable(WP_CONTENT_DIR),
                 'cache_dir_exists' => is_dir(TQK_WP_CACHE_STORAGE_DIR),
+                // phpcs:ignore WordPress.WP.AlternativeFunctions
                 'cache_dir_writable' => is_dir(TQK_WP_CACHE_STORAGE_DIR) ? is_writable(TQK_WP_CACHE_STORAGE_DIR) : null,
                 'object_cache'    => wp_using_ext_object_cache(),
                 'conflict_flag'   => (bool)get_option('tqk_cache_dropin_conflict', 0),
@@ -185,12 +187,14 @@ class Diagnostics {
             return [];
         }
         $size = filesize($file);
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         $fh = @fopen($file, 'rb');
         if (!$fh) {
             return [];
         }
         fseek($fh, max(0, $size - 400000));
         $chunk = (string)stream_get_contents($fh);
+        // phpcs:ignore WordPress.WP.AlternativeFunctions
         fclose($fh);
         $lines = array_filter(explode("\n", $chunk), static fn($l) => stripos($l, 'tqk') !== false);
         return array_map(static fn($l) => substr(trim($l), 0, 300), array_slice(array_values($lines), -25));

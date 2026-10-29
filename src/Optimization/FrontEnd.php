@@ -46,7 +46,7 @@ class FrontEnd {
         if ($site === '' || $cdn === '' || !preg_match('~^https?://[^/\s"\'<>]+$~i', $cdn) || strcasecmp($site, $cdn) === 0) {
             return $html;
         }
-        $host = preg_quote((string)parse_url($site, PHP_URL_HOST), '~');
+        $host = preg_quote((string)wp_parse_url($site, PHP_URL_HOST), '~');
         // Absolute (http / https / protocol-relative) addresses of this site, or root-relative paths, under the static folders.
         // The lookbehind keeps a path that belongs to ANOTHER host (https://other.test/wp-content/...) from being treated as a root-relative one.
         $rx = '~(?<![A-Za-z0-9._:\-/])(?:(?:https?:)?//' . $host . ')?(/(?:wp-content/(?:uploads|themes|plugins)|wp-includes)/[^\s"\'<>(),]+\.(?:jpe?g|png|gif|webp|avif|svg|ico|css|js|woff2?|ttf|otf|eot|mp4|webm|mp3|pdf)(?:\?[^\s"\'<>(),]*)?)~i';

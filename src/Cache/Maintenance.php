@@ -62,10 +62,11 @@ class Maintenance {
             $it = new \RecursiveIteratorIterator(new \RecursiveDirectoryIterator($dir, \FilesystemIterator::SKIP_DOTS), \RecursiveIteratorIterator::CHILD_FIRST);
             foreach ($it as $file) {
                 if ($file->isFile() && $file->getMTime() < $older_than && $match($file->getFilename())) {
-                    if (@unlink($file->getPathname())) {
+                    if (@wp_delete_file($file->getPathname())) {
                         $removed++;
                     }
                 } elseif ($file->isDir()) {
+                    // phpcs:ignore WordPress.WP.AlternativeFunctions
                     @rmdir($file->getPathname()); // only if empty
                 }
             }
