@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: TQK WP Cache
- * Plugin URI: https://www.facebook.com/Unk.khai/
+ * Plugin URI: https://github.com/ktruong-afk/tqk-wp-cache
  * Description: High-Performance Page Caching & Core Web Vitals Optimization Engine. Combines lightweight server-level speed with smart optimizations (Delay JS, Instant Preload, Tag-based Purge, Dynamic Fragment Bypass).
  * Version: 1.0.0
  * Author: Trương Quang Khải
